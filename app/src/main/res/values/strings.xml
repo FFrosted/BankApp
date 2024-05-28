@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BankApp</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="button_login_text">Log in</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_text">Welcome, </string>
+    <string name="transact_text">$</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="fragment_title">Fragemnt Title</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="accountsettings">Account settings</string>
+    <string name="element_text">element_text</string>
+    <string name="update_email">Update Email</string>
+    <string name="back">Back</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BankApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="EditTextHint">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name ="TransactButton">
+        <item name="colorAccent">@color/pay_green</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+
+    <style name="Theme.BankApp" parent="Base.Theme.BankApp" />
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg_gradient"
+    tools:context=".Register">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text_input_password"
+        style="@style/EditTextHint"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rectangle"
+        android:drawableStart="@drawable/baseline_attachment_24"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/login_password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text_input_email"
+        style="@style/EditTextHint"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/rectangle"
+        android:drawableStart="@drawable/baseline_account_circle_24"
+        android:fontFamily="serif-monospace"
+        android:hint="@string/login_email"
+        android:inputType="textEmailAddress"
+
+        android:lineSpacingExtra="96sp"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/register_button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="124dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rectangle"
+        android:text="@string/register_text"
+        android:textAppearance="@style/Base.Theme.BankApp"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_password" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/register_text"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_input_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/loginNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/click_to_login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_button"
+        tools:layout_editor_absoluteX="26dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
