@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.Nullable;
@@ -30,6 +31,7 @@ public class SettingsActivity extends AppCompatActivity {
 
     private String[] buttonsText;
 
+    private TextView title;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -48,6 +50,8 @@ public class SettingsActivity extends AppCompatActivity {
         SettingsAdapter mAdapter = new SettingsAdapter(buttonsText, SettingsActivity.this);;
         recyclerView.setAdapter(mAdapter);
 
+        title = findViewById(R.id.home_title);
+        title.setText("Settings");
     }
 
     private void setupBottomNavigationView() {

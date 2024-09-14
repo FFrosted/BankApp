@@ -59,7 +59,7 @@
         style="@style/Widget.Material3.Button"
         android:layout_width="124dp"
         android:layout_height="65dp"
-        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/blue"
         android:text="@string/register_text"
         android:textAppearance="@style/Base.Theme.BankApp"
         android:textSize="17sp"

@@ -35,6 +35,7 @@ public class SettingsAdapter extends RecyclerView.Adapter<SettingsAdapter.ViewHo
 
         public Button getButton() {
             return button;
+
         }
     }
 

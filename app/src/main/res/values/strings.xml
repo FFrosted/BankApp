@@ -23,6 +23,23 @@
     <string name="accountsettings">Account settings</string>
     <string name="element_text">element_text</string>
     <string name="update_email">Update Email</string>
+    <string name="update_password">Update Password</string>
     <string name="back">Back</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="deposit">Deposit</string>
+    <string name="transact">Transact</string>
+    <string name="welcome_email">Welcome, email</string>
+    <string name="accounts">Accounts</string>
+    <string name="transfer">Transfer</string>
+    <string name="from">From:</string>
+    <string name="to">To: </string>
+    <string name="amount">Amount</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="balance">Balance</string>
+    <string name="most_valued_account">Most Valued Account</string>
+
 
 </resources>

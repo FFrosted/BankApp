@@ -9,5 +9,10 @@
     <color name="gradient_blue">#095fc4</color>
     <color name="pay_green">#FF55ad64</color>
     <color name="_00123123">#00123123</color>
+    <color name="gray_opaque2">#808c8c8c</color>
+    <color name="gray_opaque3">#cfcfcf</color>
+    <color name="blurple">#FF4747e9</color>
+    <color name="grayish_white">#FFbfbfbf</color>
+    <color name="white_opaque">#AFFFFFFF</color>
 
 </resources>
